@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">INFLOW</string>
+    <string name="postingan_game">POSTINGAN GAME</string>
+    <string name="jmlh_like">10.000</string>
+    <string name="judul">Game Arcade 2021</string>
+    <string name="isi_konten">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto autem, dolorum ex illum laboriosam libero pariatur perspiciatis, quibusdam repellendus sed sint soluta! Aliquid doloremque, dolores hic iste obcaecati repellendus reprehenderit voluptatem voluptatum. Ad, nihil quaerat? Architecto deleniti earum placeat. Atque consectetur dolore dolorem ducimus ex quod tempora, ut voluptatum. Unde?</string>
+    <string name="konten1">Mario Bros</string>
+    <string name="konten2">Star Wars Squadrons</string>
+    <string name="isi_konten_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores id, minima necessitatibus optio quod suscipit.</string>
 </resources>
