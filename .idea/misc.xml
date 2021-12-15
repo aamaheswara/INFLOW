@@ -3,16 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout-w1240dp/activity_inflowlogin.xml" value="0.1" />
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout-w936dp/activity_inflowlogin.xml" value="0.10450819672131148" />
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout/activity_inflowlogin.xml" value="0.1703125" />
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout/activity_user_profile.xml" value="0.33803720333547144" />
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout/activity_user_profile_inflow.xml" value="0.1" />
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout/fragment_dashboard.xml" value="0.18568840579710144" />
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout/fragment_home.xml" value="0.18568840579710144" />
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout/fragment_notifications.xml" value="0.18568840579710144" />
-        <entry key="..\:/Proyek/AndroidStudio/PAB2021/INFLOW/app/src/main/res/layout/settings_activity.xml" value="0.13858695652173914" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/activity_achievement.xml" value="0.5" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/activity_home.xml" value="0.19791666666666666" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/activity_login.xml" value="0.3651041666666667" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/activity_post.xml" value="0.3651041666666667" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/activity_reward.xml" value="0.67" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/activity_sign_up.xml" value="0.3651041666666667" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/activity_single_post.xml" value="0.33" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/activity_user_profile.xml" value="0.75" />
+        <entry key="..\:/Proyek/PAB-MPTI/INFLOW/app/src/main/res/layout/settings_activity.xml" value="0.3651041666666667" />
       </map>
     </option>
   </component>

@@ -110,7 +110,8 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="John Doe"
+        android:paddingStart="10dp"
+        android:text="@string/logged_in_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintStart_toEndOf="@+id/tvNameTitle"
@@ -123,23 +124,25 @@
         android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="John Doe"
+        android:paddingStart="10dp"
+        android:text="@string/logged_in_username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintStart_toEndOf="@+id/tvNameTitle"
         app:layout_constraintTop_toBottomOf="@+id/etName" />
 
-   <EditText
-       android:id="@+id/etEmail"
-       android:layout_width="272dp"
-       android:layout_height="wrap_content"
-       android:layout_marginTop="12dp"
-       android:ems="10"
-       android:inputType="textPersonName"
-       android:text="johndoe@email.com"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.811"
-       app:layout_constraintStart_toEndOf="@+id/tvNameTitle"
-       app:layout_constraintTop_toBottomOf="@+id/etUsername" />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:text="@string/loggen_in_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toEndOf="@+id/tvNameTitle"
+        app:layout_constraintTop_toBottomOf="@+id/etUsername" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
