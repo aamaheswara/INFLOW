@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">INFLOW</string>
     <string name="title_activity_user_profile">UserProfileActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
     <string name="logged_in_username">johndoe_at_inflow</string>
     <string name="logged_in_name">John Doe</string>
     <string name="loggen_in_email">johndoe@email.com</string>
