@@ -52,8 +52,7 @@ dependencies {
     //Untuk Circular ImageView
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
-    //Untuk recyclerview. referensi:
-
+    //Untuk recyclerview.  referensi: https://www.youtube.com/watch?v=Jo6Mtq7zkkg
     // Card View
     def cardview_version = "1.0.0"
     implementation "androidx.cardview:cardview:$cardview_version"
@@ -62,7 +61,7 @@ dependencies {
     def recyclerview_version = "1.0.0"
     implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
 
-    //glide
+    //glide. untuk load image ke ImageView
     def glide_version = "4.8.0"
     implementation "com.github.bumptech.glide:glide:$glide_version"
     annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
