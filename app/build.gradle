@@ -51,4 +51,18 @@ dependencies {
     //Untuk Circular ImageView
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
+    // Untuk RecylerView. Referensi: https://youtu.be/Jo6Mtq7zkkg
+    // Tidak jadi ikuti ini karena java bukan kotlin https://youtu.be/ppEw_nzCgO4
+    // Card View
+    def cardview_version = "1.0.0"
+    implementation "androidx.cardview:cardview:$cardview_version"
+
+    // Recyclerview
+    def recyclerview_version = "1.0.0"
+    implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
+
+    //glide (image viewer)
+    def glide_version = "4.8.0"
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
 }
