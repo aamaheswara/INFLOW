@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.glasgow.inflow">
+    package="com.glasgow.inflow"
+    >
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -15,8 +16,10 @@
             android:name=".UserProfileActivity"
             android:exported="false"
             android:label="@string/title_activity_user_profile"
+            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity"/>
         <activity
+            android:screenOrientation="portrait"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

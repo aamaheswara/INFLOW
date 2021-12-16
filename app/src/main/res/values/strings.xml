@@ -4,4 +4,6 @@
     <string name="logged_in_username">johndoe_at_inflow</string>
     <string name="logged_in_name">John Doe</string>
     <string name="loggen_in_email">johndoe@email.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
