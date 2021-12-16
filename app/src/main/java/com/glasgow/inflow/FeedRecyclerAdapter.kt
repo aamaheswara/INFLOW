@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.glasgow.inflow.R.layout.custom_feed_design
+import kotlinx.android.synthetic.main.custom_feed_design.view.*
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.glasgow.inflow.models.ReviewPost
