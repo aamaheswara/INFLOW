@@ -4,14 +4,15 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.glasgow.inflow.fragments.*
 import kotlinx.android.synthetic.main.activity_main.*
+import androidx.fragment.app.Fragment
+import com.glasgow.inflow.fragments.*
+import kotlinx.android.synthetic.main.fragment_home_feed.*
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var blogAdapter: BlogRecyclerAdapter
+//    private lateinit var blogAdapter: BlogRecyclerAdapter
 
     //fragment implementation reference: https://youtu.be/v8MbOjBCu0o
     private val myHomeFeedFragment = HomeFeedFragment()
@@ -35,8 +36,8 @@ class MainActivity : AppCompatActivity() {
             true
         }
 
-        initRecyclerView()
-        addDataset()
+//        initRecyclerView()
+//        addDataset()
     }
 
     private fun replaceFragment(fragment: Fragment){
@@ -52,11 +53,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(myIntent)
     }
 
-    private fun addDataset(){
-        val ds = DataSource.createDataSet()
-        blogAdapter.submitList(ds)
-    }
-
+//    private fun addDataset(){
+//        val ds = DataSource.createDataSet()
+//        blogAdapter.submitList(ds)
+//    }
+//
     private fun initRecyclerView(){
         recycler_view.apply {
             layoutManager = LinearLayoutManager(this@MainActivity)
