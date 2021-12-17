@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private lateinit var blogAdapter: BlogRecyclerAdapter
+    private val feedDataset = DataSource.createDataSet()
 
     //fragment implementation reference: https://youtu.be/v8MbOjBCu0o
     private val myHomeFeedFragment = HomeFeedFragment()
@@ -35,15 +36,21 @@ class MainActivity : AppCompatActivity() {
             true
         }
 
-        initRecyclerView()
-        addDataset()
     }
 
     private fun replaceFragment(fragment: Fragment){
-        if (fragment != null){
+        if (fragment != null && fragment != this.myHomeFeedFragment){
             val transaction = supportFragmentManager.beginTransaction()
             transaction.replace(R.id.fragment_container, fragment)
             transaction.commit()
+//            initRecyclerView()
+            clearItemsRecyclerView()
+        } else if (fragment != null && fragment == this.myHomeFeedFragment){
+            val transaction = supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.fragment_container, fragment)
+            transaction.commit()
+            initRecyclerView()
+            addDataset()
         }
     }
 
@@ -52,9 +59,16 @@ class MainActivity : AppCompatActivity() {
         startActivity(myIntent)
     }
 
+    private fun clearItemsRecyclerView(){
+        this.feedDataset.clear()
+        blogAdapter.notifyDataSetChanged()
+    }
+
     private fun addDataset(){
-        val ds = DataSource.createDataSet()
-        blogAdapter.submitList(ds)
+        if (this.feedDataset.isEmpty()){
+            this.feedDataset.addAll(DataSource.createDataSet())
+        }
+        blogAdapter.submitList(this.feedDataset)
     }
 
     private fun initRecyclerView(){

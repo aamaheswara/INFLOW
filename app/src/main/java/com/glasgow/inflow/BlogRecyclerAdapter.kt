@@ -14,8 +14,6 @@ import kotlin.collections.ArrayList
 class BlogRecyclerAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>()
 {
 
-    private val TAG: String = "AppDebug"
-
     private var items: List<BlogPost> = ArrayList()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {

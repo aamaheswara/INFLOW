@@ -83,5 +83,9 @@ class DataSource{
             )
             return list
         }
+
+        fun getEmptyDataSet(): ArrayList<BlogPost>{
+            return ArrayList<BlogPost>()
+        }
     }
 }
