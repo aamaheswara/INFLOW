@@ -10,10 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.INFLOW">
         <activity
-            android:name=".home"
-            android:exported="true" />
-        <activity
-            android:name=".single_post"
+            android:name=".GameDetail"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

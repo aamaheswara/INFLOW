@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14635416666666667" />
+        <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/layout/activity_game_detail.xml" value="0.144" />
         <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/layout/activity_single_post.xml" value="0.176" />
+        <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/layout/fragment_home.xml" value="0.24010416666666667" />
+        <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/layout/fragment_search.xml" value="0.536" />
+        <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/layout/item_game.xml" value="0.264" />
+        <entry key="..\:/Riko/Semester 5/PAB/INFLOW/app/src/main/res/menu/bottom_navigation.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
