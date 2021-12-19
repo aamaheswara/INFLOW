@@ -29,6 +29,10 @@ class MainActivity : AppCompatActivity() {
             R.id.item_search -> {
                 selectedFragment = SearchFragment()
             }
+
+            R.id.item_account -> {
+                selectedFragment = ProfileFragment()
+            }
         }
 
         var fr = supportFragmentManager.beginTransaction()
